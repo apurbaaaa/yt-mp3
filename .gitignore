@@ -4,3 +4,6 @@ audio_clean_p2/
 audio_segments_p3/
 .env
 *.csv
+*.zip
+Video1/
+Video2/
