@@ -35,8 +35,8 @@ OUT_CSV = "segment_transcripts_gemini.csv"
 MODEL_ID = "models/gemini-2.5-flash"
 SAMPLE_RATE = 16000
 RATE_LIMIT_DELAY = 7  # seconds between requests to avoid rate limit
-SKIP_FILES = 628 # Skip first N files
-MAX_FILES = 1000  # Number of audio files to transcribe after skip
+SKIP_FILES = 7225 # Skip first N files
+MAX_FILES = 3000  # Number of audio files to transcribe after skip
 APPEND_MODE = True  # Append to existing CSV instead of overwriting
 # --------------------------------------
 
